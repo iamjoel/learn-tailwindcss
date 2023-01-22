@@ -48,6 +48,21 @@ const config = {
     ],
   ],
 
+  themes: [
+    // local search: https://github.com/easyops-cn/docusaurus-search-local
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"), 
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
+        language: 'zh',
+        indexBlog: false,
+        indexPages: true,
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+      })
+    ]
+  ],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
