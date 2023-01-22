@@ -9,18 +9,18 @@
  Create as many sidebars as you want.
  */
 
-const category1Config = require('./sidebar-config/category-1')
-const category2Config = require('./sidebar-config/category-2')
-const category3Config = require('./sidebar-config/category-3')
+const styleConfig = require('./sidebar-config/style')
+const configConfig = require('./sidebar-config/config')
+// const category3Config = require('./sidebar-config/category-3')
 
 
 // @ts-check
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
-  category1: category1Config,
-  category2: category2Config,
-  category3: category3Config,
+  style: styleConfig,
+  config: configConfig,
+  // category3: category3Config,
 };
 
 module.exports = sidebars;

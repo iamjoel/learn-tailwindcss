@@ -4,8 +4,8 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const projectPath = 'template-react-doc-site'
-const projectName = '文档模板'
+const projectPath = 'learn-tailwindcss'
+const projectName = '学习 tailwindcss'
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -60,22 +60,22 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'category-1/nav',
+            docId: 'style/nav',
             position: 'left',
-            label: '分类1',
+            label: '样式',
           },
           {
             type: 'doc',
-            docId: 'category-2/nav',
+            docId: 'config/nav',
             position: 'left',
-            label: '分类2',
+            label: '配置',
           },
-          {
-            type: 'doc',
-            docId: 'category-3/nav',
-            position: 'left',
-            label: '分类3',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'category-3/nav',
+          //   position: 'left',
+          //   label: '分类3',
+          // },
           // right
           {
             href: `https://github.com/iamjoel/${projectPath}`,

@@ -1,4 +1,4 @@
-const PREFIX = 'category-2'
+const PREFIX = 'config'
 
 const config = [
   {

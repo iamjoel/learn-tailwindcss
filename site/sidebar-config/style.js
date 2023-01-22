@@ -1,19 +1,19 @@
-const PREFIX = 'category-1'
+const PREFIX = 'style'
 
 const config = [
   {
     type: 'doc',
-    label: '分类1',
+    label: '样式',
     id: `${PREFIX}/nav`,
   },
   {
     type: 'category',
-    label: '内容',
+    label: '布局',
     items: [
       {
         type: 'doc',
-        label: '按钮',
-        id: `${PREFIX}/content/button`
+        label: 'Flex 布局',
+        id: `${PREFIX}/layout/flex`
       },
     ]
   }
