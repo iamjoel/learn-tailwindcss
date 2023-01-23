@@ -16,6 +16,17 @@ const config = [
         id: `${PREFIX}/layout/flex`
       },
     ]
+  },
+  {
+    type: 'category',
+    label: '颜色',
+    items: [
+      {
+        type: 'doc',
+        label: '支持的颜色',
+        id: `${PREFIX}/color/support-list`
+      },
+    ]
   }
 ]
 
