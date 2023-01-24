@@ -3,8 +3,8 @@ const PREFIX = 'style'
 const config = [
   {
     type: 'doc',
-    label: '样式',
-    id: `${PREFIX}/nav`,
+    label: '概览',
+    id: `${PREFIX}/overview`,
   },
   {
     type: 'category',
@@ -14,6 +14,11 @@ const config = [
         type: 'doc',
         label: 'Flex 布局',
         id: `${PREFIX}/layout/flex`
+      },
+      {
+        type: 'doc',
+        label: '尺寸',
+        id: `${PREFIX}/layout/size`
       },
     ]
   },

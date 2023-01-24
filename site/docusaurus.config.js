@@ -75,7 +75,7 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'style/nav',
+            docId: 'style/overview',
             position: 'left',
             label: '样式',
           },
