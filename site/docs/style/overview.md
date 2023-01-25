@@ -3,6 +3,7 @@ hide_table_of_contents: true
 ---
 
 import NavList from '@site/src/components/nav-list'
+import LinkGroup from '@site/src/components/link-group'
 
 # 概览
 <div style={{overflowX: 'auto'}}>
@@ -90,6 +91,47 @@ import NavList from '@site/src/components/nav-list'
       />
     </div>
   </div>
+</div>
+
+## 常用站
+<div
+  class="my-4 rounded-lg p-4 bg-stripes-indigo"
+  style={{width: 980}}
+>
+  <LinkGroup
+    list={[
+      {
+        title: 'tailwind 官网',
+        description: 'Unity First',
+        url: 'https://tailwindcss.com/docs/'
+      },
+      {
+        title: 'tailwind playground',
+        description: '',
+        url: 'https://play.tailwindcss.com/'
+      },
+      {
+        title: 'tailwind 官网',
+        description: 'Unity First',
+        url: 'https://tailwindcss.com/docs/'
+      },
+      {
+        title: 'tailwind playground3',
+        description: '',
+        url: 'https://play.tailwindcss.com/'
+      },
+      {
+        title: 'tailwind 官网4',
+        description: 'Unity First',
+        url: 'https://tailwindcss.com/docs/'
+      },
+      {
+        title: 'tailwind playground6',
+        description: '',
+        url: 'https://play.tailwindcss.com/'
+      },
+    ]}
+  />
 </div>
 
 

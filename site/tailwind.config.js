@@ -11,6 +11,7 @@ module.exports = {
     'flex', 'flex-wrap',
     'w-6',
     'h-6',
+    'm-1', 'm-2', 'm-3', 'm-4', 'mx-1', 'mx-2', 'mx-4', 'mx-8', 'my-1', 'my-2', 'my-4', 'my-8',
     'p-1', 'p-2', 'px-1', 'px-2', 'px-4', 'px-8',
     'space-x-1', 'space-x-2','space-x-3', 'space-x-4',
     'space-y-1', 'space-y-2','space-y-3', 'space-y-4',
