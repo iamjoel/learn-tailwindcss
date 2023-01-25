@@ -7,6 +7,11 @@ const config = [
     id: `${PREFIX}/overview`,
   },
   {
+    type: 'doc',
+    label: '常用代码',
+    id: `${PREFIX}/cheat-sheet`,
+  },
+  {
     type: 'category',
     label: '布局',
     items: [

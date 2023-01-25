@@ -1,7 +1,10 @@
+---
+hide_table_of_contents: true
+---
+
 import NavList from '@site/src/components/nav-list'
 
 # 概览
-<!-- cheatsheet ui: https://devhints.io/react -->
 <div style={{overflowX: 'auto'}}>
   <div class='
     flex justify-center 
